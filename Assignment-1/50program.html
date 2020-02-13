@@ -1,0 +1,23 @@
+<html>
+    <head><title>Check if 50</title></head>
+    <body>
+        <script>
+            //Write a JavaScript program to check two given numbers and return true
+            //if one of the numbers is 50 or if their sum is 50.
+        let num1,num2;
+        num1=prompt("Enter 1st number:");
+        num2=prompt("Enter 2nd number:");
+        
+        function compareNumbers(num1,num2){
+            let sum=+num1+ +num2;
+            alert(sum);
+            if(sum==50 || num2==50 || num1==50){ 
+                alert("True");  
+            }
+            else{   
+                alert("False");}
+        }
+        compareNumbers(num1,num2);
+        </script>
+    </body>
+</html>

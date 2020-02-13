@@ -1,0 +1,18 @@
+<html>
+    <head><title>Age calculation of human</title></head>
+    <body>
+        <script>
+            let current_year=2020,current_month=2,current_day=10;
+            alert("Welcome to the program");
+            let age_year=prompt("Enter your birth year:");
+            // let age_month=prompt("Enter your birth month in number:");
+            // let age_day=prompt("Enter your birth day:");
+            function ageCalculation(age){
+                let output_age=current_year-age_year;
+                alert("Calculating. Please wait!")
+                alert(`You are ${output_age} years old`);
+            }
+            ageCalculation(age_year);
+        </script>
+    </body>
+</html>
